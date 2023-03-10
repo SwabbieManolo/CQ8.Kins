@@ -1,0 +1,33 @@
+.mother{
+    background-color: brown;
+    height: 800px;
+    width: 1000px;
+    margin: auto;
+
+}
+.sister{
+    background-color: turquoise;
+    height: 400px;
+    width: 800px;
+    margin: 50px;
+}
+.child{
+    background-color: indigo;
+    height: 400px;
+    width: 400px;
+}
+.first{
+    float: left;
+    background-color: whitesmoke;
+    
+}
+.second{
+    float: right;
+    background-color: rgba(0, 0, 255, 0.61);
+}
+img{
+    padding-top: 60px;
+    padding-left: 180px;
+    padding-right: 180px;
+ 
+}
