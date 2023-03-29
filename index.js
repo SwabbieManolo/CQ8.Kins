@@ -4,3 +4,5 @@
  */
 var x= "Swabbie"
 console.log(x)
+
+document.getElementById("Message").innerHTML = "Hooray, You have used Javascript!";
