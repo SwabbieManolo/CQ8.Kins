@@ -1,0 +1,38 @@
+.container{
+    display: grid;
+    background-color: white;
+    justify-content: center;
+    grid-template-columns: 500px;
+    grid-template-rows: 300px 150px 150px;
+    gap: 10px;
+
+
+}
+.container>div{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: grey 2px 2px 2px 2px;
+}
+.item1>h2{
+    text-align: center;
+}
+.pic{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    left: calc(38.5%);
+    top: calc(5%);
+    position: relative;
+}
+p{
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
+.item2{
+    text-align: center;
+}
+.item3{
+    text-align: center;
+}

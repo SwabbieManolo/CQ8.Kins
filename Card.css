@@ -8,8 +8,56 @@
 
 .Elder{
     background-color: white;
-    height: 430px;
-    width: 300px;
-    border-radius: 0%;
-    padding: ;
+    height: 600px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: grey 5px 3px 5px ;
+    margin: auto;
+}
+.Top{
+    background-color: #8a128a;
+    height: 230px;
+    width: 400px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-top: 10px;
+
+
+}
+.Bottom{
+    background-color: beige;
+    height:280px;
+    width: 400px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+.img-circle{
+    height:130px;
+    width: 130px;
+    position: absolute;
+    left: calc(44.5%);
+    top: calc(27%);
+    border-radius: 50%;
+    border:5px white solid ;
+}
+p{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    margin-top: 80px;
+}
+h4{
+    text-align: center;
+    margin-top: 10px;
+}
+button{
+    background-color: rgb(104, 7, 104);
+    border-radius: 20px;
+    padding: 10px 25px 10px 25px;
+    text-align: center;
+    position: absolute;
+    left: calc(45%);
+    color: white;
 }
