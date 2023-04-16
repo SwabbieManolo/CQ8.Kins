@@ -10,17 +10,18 @@ for(let i=1; i<=5; i++) {
     console.log("code " + i)
 }
 //While loop
-i = 1
+var i = 1;
 while( i < 5) {
-    console.log("Code " + i)
+    console.log("Code " + i);
     i++
 }
 //Break & Continue
-i = 1
+var i = 1;
 while( i < 5) {
-    if(i == 2) continue
-    console.log("Code " + i)
-    if(i == 3) break
+    if(i == 2) {
+        console.log("Code " + i);
+    }
+    else(i == 3) break
     i++
 }
     
